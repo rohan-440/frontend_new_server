@@ -81,7 +81,7 @@ function App() {
             <textarea
               value={jsonInput}
               onChange={handleJsonChange}
-              placeholder='Enter JSON here'
+              placeholder='Enter JSON here For eg : {"data" : ["M","1","334","B"]}'
               className="form-control mb-3"
               style={{ borderRadius: '.25rem', border: '1px solid #ced4da' }}
             />
