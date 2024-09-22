@@ -26,7 +26,7 @@ function App() {
       setError('');
 
       // Make the API call
-      const apiResponse = await axios.post('https://newserver-p5w2p0yf.b4a.run/bfhl', parsedJson);
+      const apiResponse = await axios.post('https://bajajfinserv-hjs8h79u.b4a.run/bfhl', parsedJson);
       //debugger
       setResponse(apiResponse.data);
       setFilteredData([apiResponse.data]); // Store the unfiltered response data
